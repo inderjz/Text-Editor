@@ -1,0 +1,40 @@
+{
+    "name": "jate",
+    "version": "1.0.0",
+    "description": "A text editor that meets the PWA criteria and feature a number of data persistence techniques that serve as redundancy in case of options is not supported by the browser.  The application will also function offline",
+    "main": "server.js",
+    "scripts": {
+        "dev": "webpack-dev-server",
+        "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+        "start": "npm run build && cd server && node server.js",
+        "server": "cd server nodemon server.js --ignore client",
+        "build": "cd client && npm run build",
+        "install": "cd client && npm install",
+        "client": "cd client && npm start"
+    },
+    "keywords": [],
+    "author": "Stella Ling",
+    "license": "ISC",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "express": "^4.18.2",
+        "idb": "^7.1.1",
+        "if-env": "^1.0.4"
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "css-loader": "^6.7.3",
+        "nodemon": "^1.4.1",
+        "webpack": "^5.75.0",
+        "webpack-dev-server": "^4.11.1",
+        "webpack-pwa-manifest": "^4.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inderjz/Text-Editor.git"
+    },
+    "bugs": {
+        "url": "https://github.com/inderjz/Text-Editor/issues"
+    },
+    "homepage": "https://github.com/inderjz/Text-Editor/blob/main/README.md"
+}
