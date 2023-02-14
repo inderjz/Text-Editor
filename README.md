@@ -23,10 +23,28 @@
 
   ## [Installation](#table-of-contents)
 
-  
+  This text editor require a number of methods and store data to an IndexedDB database to be builded up.
+
+This application will require the installation of Node.js and various npm packages.
+
+Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using npm init. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
+
+This application will use the following npm packages:-
+
+  * npm install express (express.js)
+  * npm install --save-dev webpack (Webpack)
+  * npm install webpack-dev-server --save-dev (webpack-dev-server)
+  * npm install --save-dev webpack-pwa-manifest (WebpackPwaManifest)
+  * npm install babel (Babel)
+  * npm install --save-dev css-loader (CSS-loader)
+  * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
+  * npm npm install idb (IndexedDB)
+
+The required modules are bundled in the package.json file and at CLI or integrated terminal type in npm run install, the modules will be installed.
 
 
-  ## [Usage](#table-of-contents)
+
+ ## [Usage](#table-of-contents)
 
   To utilize this application, a user must first launch the server on a local computer. They must then make database requests using a program like Insomina. To do that use terminal to get into your file path and first use the following command 'npm run seed' and then use the following command 'npm start' and it will start on your local server.
   
