@@ -56,14 +56,32 @@ The required modules are bundled in the package.json file and at CLI or integrat
    ![one 1](https://user-images.githubusercontent.com/112728880/218630967-b6223a34-d608-41d0-83fe-16e6b008b39d.png)
    
    WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
+  THEN I find that the text editor still functions in the browser without errors
+  WHEN I open the text editor
+
+<img width="1415" alt="Screenshot 2023-02-13 at 7 23 39 PM" src="https://user-images.githubusercontent.com/112728880/218631235-4e5f49ad-96f3-4a46-98b5-ffeec9fb93ab.png">
+
+THEN I find that IndexedDB has immediately created a database storage
+WHEN I enter content and subsequently click off of the DOM window
+THEN I find that the content in the text editor has been saved with IndexedDB
+WHEN I reopen the text editor after closing it
+THEN I find that the content in the text editor has been retrieved from our IndexedDB
+
+![image 2](https://user-images.githubusercontent.com/112728880/218631399-be87f5fd-ce27-47d4-b8fd-3a5ebf6223f4.png)
+
+WHEN I load my web application
+THEN I should have a registered service worker using workbox
+WHEN I register a service worker
+THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
+
+![image 3](https://user-images.githubusercontent.com/112728880/218631526-307bd269-4119-4428-a595-058019098312.png)
+
+WHEN I deploy to Heroku
+THEN I should have proper build scripts for a webpack application 
+
+<img width="1415" alt="Screenshot 2023-02-13 at 7 23 39 PM" src="https://user-images.githubusercontent.com/112728880/218631593-6a24e336-28f7-41ba-8b25-cab5fbc6a59e.png">
 
 
-
-
-
-  
   ## [License](#table-of-contents)
 
   The application is covered under the following license:
