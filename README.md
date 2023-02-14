@@ -53,7 +53,8 @@ The required modules are bundled in the package.json file and at CLI or integrat
     WHEN I run my webpack plugins
     THEN I find that I have a generated HTML file, service worker, and a manifest file
     
-    ![one 1](https://user-images.githubusercontent.com/112728880/218630874-0b4ed808-56f8-4ec4-be8d-cebb87d823e8.png)
+   ![one 1](https://user-images.githubusercontent.com/112728880/218630967-b6223a34-d608-41d0-83fe-16e6b008b39d.png)
+
 
 
   
