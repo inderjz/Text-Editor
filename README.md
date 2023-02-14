@@ -46,9 +46,15 @@ The required modules are bundled in the package.json file and at CLI or integrat
 
  ## [Usage](#table-of-contents)
 
-  To utilize this application, a user must first launch the server on a local computer. They must then make database requests using a program like Insomina. To do that use terminal to get into your file path and first use the following command 'npm run seed' and then use the following command 'npm start' and it will start on your local server.
-  
-<img width="756" alt="Screenshot 2023-01-31 at 7 59 58 PM" src="https://user-images.githubusercontent.com/112728880/215952117-5fe62f3d-1981-4f9d-9965-b871e9eb23cc.png">
+  WHEN I run `npm run start` from the root directory
+    THEN I find that my application should start up the backend and serve the client
+    WHEN I run the text editor application from my terminal
+    THEN I find that my JavaScript files have been bundled using webpack
+    WHEN I run my webpack plugins
+    THEN I find that I have a generated HTML file, service worker, and a manifest file
+    
+    ![one 1](https://user-images.githubusercontent.com/112728880/218630874-0b4ed808-56f8-4ec4-be8d-cebb87d823e8.png)
+
 
   
   ## [License](#table-of-contents)
