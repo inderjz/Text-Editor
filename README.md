@@ -54,6 +54,12 @@ The required modules are bundled in the package.json file and at CLI or integrat
     THEN I find that I have a generated HTML file, service worker, and a manifest file
     
    ![one 1](https://user-images.githubusercontent.com/112728880/218630967-b6223a34-d608-41d0-83fe-16e6b008b39d.png)
+   
+   WHEN I use next-gen JavaScript in my application
+THEN I find that the text editor still functions in the browser without errors
+WHEN I open the text editor
+
+
 
 
 
